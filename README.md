@@ -12,3 +12,17 @@ The main focus is on understanding:
 - Whether company rating shows any relationship with salary levels
 
 ---
+
+## Dataset
+- *Source:* Kaggle (Glassdoor job listings dataset)
+- *File used:* glassdoor_jobs.csv
+- *Type:* Downloaded, messy real-world CSV
+
+The dataset includes (among others) the following attributes:
+- Job Title
+- Salary Estimate (stored as string ranges, e.g., $53K-$91K)
+- Company Rating
+- Industry
+- Company Size, Revenue, Sector, Location, etc.
+
+---
