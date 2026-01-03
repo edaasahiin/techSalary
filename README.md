@@ -47,7 +47,7 @@ To perform analysis, salaries are converted into:
 - *MaxSalary* (maximum of the range)
 - *AvgSalary* (mean of min and max)
 
-  This enables summary statistics, quartiles, and boxplots.
+This enables summary statistics, quartiles, and boxplots.
 
 ### 4) Handle missing values in key columns
 Rows with missing values in critical analysis columns (e.g., AvgSalary, Rating)
