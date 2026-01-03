@@ -26,3 +26,23 @@ The dataset includes (among others) the following attributes:
 - Company Size, Revenue, Sector, Location, etc.
 
 ---
+## Data Cleaning (Step-by-step)
+The downloaded dataset contains messy and inconsistent values. The following preprocessing steps
+were applied before analysis:
+
+### 1) Remove irrelevant columns
+Some datasets include an extra index-like column (e.g., Unnamed: 0).  
+This column is removed because it does not contribute to analysis.
+
+### 2) Filter invalid salary entries
+Salary information may include placeholder values (e.g., -1) or missing entries.
+These rows are removed to avoid corrupting statistical analysis.
+
+### 3) Convert salary ranges to numerical values
+The Salary Estimate column is originally stored as text ranges such as:
+- $53K-$91K (Glassdoor est.)
+
+To perform analysis, salaries are converted into:
+- *MinSalary* (minimum of the range)
+- *MaxSalary* (maximum of the range)
+- *AvgSalary* (mean of min and max)
