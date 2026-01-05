@@ -102,3 +102,8 @@ A scatter plot is included in the notebook to explore the relationship between c
 and salary levels.
 
 ---
+## Technologies Used
+- **Python**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
