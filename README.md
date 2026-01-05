@@ -54,3 +54,20 @@ Rows with missing values in critical analysis columns (e.g., AvgSalary, Rating)
 are removed to ensure calculations and plots are valid.
 
 ---
+## Data Analysis
+The analysis includes both baseline and advanced statistical methods:
+
+### Baseline summary statistics
+- Mean
+- Median
+- Minimum / Maximum
+- Standard descriptive statistics via `describe()`
+
+### Advanced analysis
+- Quartiles (Q1, Q2/median, Q3)
+- Interquartile Range (IQR)
+- Box-and-whisker interpretation for identifying outliers
+
+Why quartiles/IQR matter here:  
+Salary distributions are often skewed and contain extreme values; therefore, median and IQR
+provide more robust insights than mean alone.
