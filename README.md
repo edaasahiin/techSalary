@@ -71,3 +71,17 @@ The analysis includes both baseline and advanced statistical methods:
 Why quartiles/IQR matter here:  
 Salary distributions are often skewed and contain extreme values; therefore, median and IQR
 provide more robust insights than mean alone.
+
+## Visualizations
+Visualizations were used to support statistical findings and make salary distribution patterns
+and outliers easier to interpret.
+
+The following plots were produced using *Matplotlib* and *Seaborn*.
+
+### 1) Overall Salary Distribution (Boxplot)
+This plot summarizes the overall salary distribution, highlighting:
+- Median salary
+- IQR (middle 50% range)
+- Outliers (unusually high salaries)
+
+![Overall Salary Distribution](figures/overall_salary_boxplot.png)
