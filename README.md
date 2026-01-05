@@ -85,3 +85,20 @@ This plot summarizes the overall salary distribution, highlighting:
 - Outliers (unusually high salaries)
 
 ![Overall Salary Distribution](figures/overall_salary_boxplot.png)
+
+### 2) Salary Distribution by Industry (Top 12 industries)
+The dataset contains many industries; plotting all of them makes the visualization unreadable.
+To create a meaningful comparison, the analysis focuses on the *top 12 industries by sample size*.
+
+This plot compares salary distributions across those industries and reveals differences in:
+- Median salary levels
+- Variability (spread) of salaries
+- Presence of outliers per industry
+
+![Salary Distribution by Industry](figures/industry_salary_boxplot.png)
+
+### (Optional in notebook) Rating vs Salary
+A scatter plot is included in the notebook to explore the relationship between company rating
+and salary levels.
+
+---
