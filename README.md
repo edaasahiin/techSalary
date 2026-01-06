@@ -129,5 +129,25 @@ tech-salary-analysis/
 
 ---
 
+## How to Run
+1. Make sure glassdoor_jobs.csv is available in the same directory as the notebook.
+2. Open tech_salary_analysis.ipynb.
+3. Run all cells from top to bottom to reproduce the results.
 
+---
+
+## Notes on Evaluation Criteria
+This project satisfies the following evaluation criteria:
+- *Visualization:* Matplotlib baseline and Seaborn usage
+- *Dataset:* Downloaded messy dataset with clearly documented cleaning steps
+- *Analysis:* Advanced statistical analysis including quartiles and boxplots
+
+---
+
+## Team
+- *Eda*
+- *Nisa*
+- *Gamze*
+- *Tuana*
+- *Melis*
 
