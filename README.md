@@ -15,6 +15,7 @@ The main focus is on understanding:
 
 ## Dataset
 - *Source:* Kaggle (Glassdoor job listings dataset)
+- https://www.kaggle.com/datasets/thedevastator/jobs-dataset-from-glassdoor
 - *File used:* glassdoor_jobs.csv
 - *Type:* Downloaded, messy real-world CSV
 
@@ -24,6 +25,10 @@ The dataset includes (among others) the following attributes:
 - Company Rating
 - Industry
 - Company Size, Revenue, Sector, Location, etc.
+
+The dataset used in this project is publicly available on Kaggle.
+Due to licensing considerations, the dataset is not included in this repository.
+Please download it from Kaggle and place glassdoor_jobs.csv in the root directory before running the notebook.
 
 ---
 ## Data Cleaning (Step-by-step)
@@ -72,6 +77,8 @@ Why quartiles/IQR matter here:
 Salary distributions are often skewed and contain extreme values; therefore, median and IQR
 provide more robust insights than mean alone.
 
+---
+
 ## Visualizations
 Visualizations were used to support statistical findings and make salary distribution patterns
 and outliers easier to interpret.
@@ -102,6 +109,7 @@ A scatter plot is included in the notebook to explore the relationship between c
 and salary levels.
 
 ---
+
 ## Technologies Used
 - **Python**
 - **Pandas**
