@@ -115,3 +115,19 @@ and salary levels.
 - **Pandas**
 - **Matplotlib**
 - **Seaborn**
+
+---
+
+## Repository Structure
+tech-salary-analysis/
+├── tech_salary_analysis.ipynb
+├── README.md
+├── requirements.txt
+└── figures/
+    ├── overall_salary_boxplot.png
+    └── industry_salary_boxplot.png
+
+---
+
+
+
